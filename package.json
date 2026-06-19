@@ -1,0 +1,8 @@
+{
+  "name": "sovereign-static",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && find . -maxdepth 3 -name '*.html' -exec cp {} dist/ \\; 2>/dev/null || true",
+    "start": "python3 -m http.server 8000 --directory dist"
+  }
+}

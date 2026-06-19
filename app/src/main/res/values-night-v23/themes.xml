@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Linker" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/pink_500</item>
+        <item name="toolbarStyle">@style/Theme.Custom.Toolbar</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
