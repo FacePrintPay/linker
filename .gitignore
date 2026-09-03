@@ -13,4 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-.github/workflows/detekt-analysis.yml
